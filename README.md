@@ -2,16 +2,19 @@
 
 En este documento se indicará los pasos a seguir para poder utilizar la librería creada.
 Para utilizar los componentes se deben primero que todo importar en el app.component.ts principal de tu proyecto, por lo general es en src/app/
+
 ![image](https://github.com/Lack01/geekforgeeks/assets/83151093/0dc363d3-0122-4d36-95b8-92d8cf0dbbf2)
 
 ## Importación de componentes
 
 Los 3 principales componentes de esta librería son estos que dejo subrayado en verde.
+
 ![image](https://github.com/Lack01/geekforgeeks/assets/83151093/32957f25-81d7-407e-9433-523df3e997d1)
 
 ## Archivo HTML
 
 Una vez importados, se debe dirigir al archivo .html principal, en este caso siendo un proyecto común sería:
+
 ![image](https://github.com/Lack01/geekforgeeks/assets/83151093/cfc6d3a4-5ef2-4001-bdbe-166cf3a2599b)
 
 El archivo app.component.html que se encuentra en la misma carpeta del archivo donde realizamos la importación de los componentes.
@@ -47,6 +50,7 @@ Una vez dentro del archivo .html se debe seguir con la estructura que se muestra
 Si existe otro contenido en este archivo borrarlo por completo, reemplazándolo por el de la imagen.
 
 Una vez realizado el paso anterior te deberá aparecer algo así:
+
 ![image](https://github.com/Lack01/geekforgeeks/assets/83151093/3d223d8b-0ede-434d-b9b9-9e28872cd56d)
 
 Donde el único botón que realiza una acción sería el “Abrir Modal”:
