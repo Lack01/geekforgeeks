@@ -1,11 +1,36 @@
 # Prueba Técnica MOVISAT.
 
-En este documento se indicará los pasos a seguir para poder utilizar la librería creada.
-Para utilizar los componentes se deben primero que todo importar en el app.component.ts principal de tu proyecto, por lo general es en src/app/
+## Instalar la librería
 
-![image](https://github.com/Lack01/geekforgeeks/assets/83151093/0dc363d3-0122-4d36-95b8-92d8cf0dbbf2)
+Lo primero en el proyecto principal es agregar este comando en la terminal:
+```
+npm i "ruta de archivo .tgz"
+```
+Se instalará la librería en nuestra carpeta node_modules junto con todas las otras librerías del proyecto.
+
+![image](https://github.com/Lack01/geekforgeeks/assets/83151093/40031c08-f331-4d8b-a0be-a928bde60cd0)
+
+Así es como se llama la librería y ya se encuentra dentro de node_modules.
+
+## Reemplazar rutas para styles y html
+
+Luego, se deberá copiar estas 2 rutas:
+
+![image](https://github.com/Lack01/geekforgeeks/assets/83151093/99dc5496-63a8-4d18-bd63-d55ed53feca8)
+
+La de index.html y de styles.css. Y las copiaremos en el archivo angular.json que se encuentra en el proyecto:
+
+![image](https://github.com/Lack01/geekforgeeks/assets/83151093/e3f64d7b-c589-4ba3-99a0-c0502cc4ae13)
+ 
+Modificaremos estas líneas  tachadas, tal cual como muestra la imagen :
+ 
+![image](https://github.com/Lack01/geekforgeeks/assets/83151093/a9c4ecfd-275e-4ac0-9afe-fb0029036069)
 
 ## Importación de componentes
+
+Luego, para utilizar los componentes se deben primero que todo importar en el app.component.ts principal de tu proyecto, por lo general es en src/app/
+
+![image](https://github.com/Lack01/geekforgeeks/assets/83151093/0dc363d3-0122-4d36-95b8-92d8cf0dbbf2)
 
 Los 3 principales componentes de esta librería son estos que dejo subrayado en verde.
 
